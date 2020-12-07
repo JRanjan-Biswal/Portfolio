@@ -43,7 +43,7 @@ li a{
     
 }
 li a:hover{
-    color: orange;
+    color: rgb(226, 245, 55);
     transition: 1s;
     background: rgba(12, 210, 255, 0.25);
 }
