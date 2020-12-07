@@ -21,7 +21,7 @@ body{
 }
 ul{ 
     list-style: none;
-    margin: 200px auto;
+    margin: 1em auto;
     width: 800px;
     background: rgb(0, 0, 0, 0.3);  
 }
