@@ -10,42 +10,50 @@ body{
     height: 100%;
     background: url(http://media.architecturaldigest.com/photos/57912afe46eb3e65136a5224/master/pass/GettyImages-541049266.jpg) no-repeat 50% 50% ;
     background-size: cover;
-    display:table;
+    display: table;
 }
 
 .navbar{
-    text-align: center;    
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+       
 }
 .nav{
-    height: 72px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;    
 }
 ul{ 
     list-style: none;
-    margin: 1em auto;
-    width: 800px;
-    background: rgb(0, 0, 0, 0.3);  
+         
 }
 li{
-    margin-top: 26px;
     display: inline-block;
+    padding-left: 8%;
+    padding-right: 8%;
+
 }
 li a{
     text-decoration: none;
-    color: rgb(2, 32, 6);
+    color: rgb(248, 248, 248);
     font-family:  sans-serif;
-    font-weight: lighter;
-    transition: 1s;
-    padding: 25px ;
-   
+    font-weight: bold;
+    transition: 1s;   
+    
     /* padding-bottom: 0;
     padding-right: 1.1em;
     padding-left: 10px; */
     
 }
 li a:hover{
-    color: rgb(226, 245, 55);
+   
+    color: rgb(77, 190, 238);
     transition: 1s;
-    background: rgba(12, 210, 255, 0.25);
+    cursor: pointer;
 }
 /* .names{
     padding: 20px 50px 0px 5px;
